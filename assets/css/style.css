@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body
+{
+    background:linear-gradient(60deg, #cc5ffc,#8954ee);
+   height: 100vh;
+   width: 100%;
+   padding:0px 130px;
+
+}
+main
+{ height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.todo  .addtodo
+{
+    padding: 38px 30px;
+    margin-bottom: 20px;
+}
+
+.addtodo input
+{
+    font-size: 20px;
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.addtodo button
+{
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    background: #8052ec;
+    padding: 11px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.addtodo button:hover
+{
+    background: #a996cb;
+}
+
+.todolist 
+{ 
+     align-content: center;
+   padding: 90px;
+    font-size: 23px;
+    font-family: "Roboto Slab", serif;
+   text-align: left;
+   height: 300px;
+}
+
+.todolist p{
+
+  border-bottom: 1px solid  rgb(180, 146, 208);
+  align-items: left;
+}
+
+.todolist p { 
+    font-size: 20px;
+    padding-left: 4;
+     margin-left: 50px;
+     text-align: left;
+   
+}
+.todolist .p1
+{ 
+   align-items: left;
+    display: flex;
+    justify-content:space-between;
+}
+
+.todolist .del{
+    background: #8052ec;
+    padding: 1px 12px;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: #ccc;
+    cursor: pointer;
+   
+}
+
+
+
+ main h1{
+    color:#fff;
+    font-size:100px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 24px #616161;
+    font-family: "Roboto Slab", serif;
+ }
+main h2{
+ font-size:42px;
+ font-weight: bold;
+ letter-spacing: 0.5px;
+}
+
+
+.shadow
+{
+    background: #fff;
+    padding:25px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #616161;
+
+
+}
